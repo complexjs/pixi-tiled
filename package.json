@@ -1,6 +1,6 @@
 {
   "name": "complex-pixijs-tiled",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Pixi.js plugin to import maps from the Tiled map editor.",
   "keywords": [
     "pixi",
@@ -11,7 +11,7 @@
   "author": "Stuart Lee",
   "repository": "https://github.com/beeglebug/pixi-tiled",
   "license": "MIT",
-  "main": "index.js",
+  "main": "bin/pixi-tiled.js",
   "scripts": {
     "test": "mocha",
     "build": "browserify index.js -o bin/pixi-tiled.js"
