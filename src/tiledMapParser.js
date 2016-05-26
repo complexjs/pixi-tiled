@@ -1,3 +1,6 @@
+'use strict';
+
+var PIXI = require('pixi.js');
 var TiledMap = require('./TiledMap');
 var Tileset = require('./Tileset');
 var Layer = require('./Layer');
@@ -45,7 +48,7 @@ module.exports = function() {
 				if ( 'odd' === staggerindex ){
 
 					x += (j % 2 != 0) ? tilewidth / 2 : 0;
-					
+
 				} else {
 
 					x += (j % 2 == 0) ? tilewidth / 2 : 0;

@@ -16,7 +16,7 @@
     "test": "mocha",
     "build": "browserify index.js -o bin/pixi-tiled.js"
   },
-  "peerDependencies": {
+  "dependencies": {
     "pixi.js": "^3.0.2"
   },
   "devDependencies": {

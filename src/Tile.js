@@ -1,3 +1,6 @@
+'use strict';
+
+var PIXI = require('pixi.js');
 /**
  * Tile
  * @constructor
